@@ -1,0 +1,6 @@
+db insert format
+facts.insert({
+  title: 'Meat',
+  url: 'http://meat.com',
+  si: 'kg'
+});
