@@ -1,6 +1,8 @@
 {
 name: 'string', // the name of the food type
+url: 'url', //the data source
 si: 'string',// standard unit the name of the unit used eg 'g', 'ml','integer' integer is used where whole items are used as the base for the unit eg eggs
+group: 'string', //food group 
 CO2: Num, // the No of kg of CO2 produced per si unit
 H20: Num, // the No of ltr of H2O used per si unit
 kJ: Num, // the No of kJ of energy used to produce a unit
