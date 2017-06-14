@@ -29,6 +29,21 @@ Facts.insert({
   })
 
   Facts.insert({
+    title: 'quorn',
+    url: 'https://www.quorn.co.uk/sustainable-nutrition',
+    si: 'g',
+    group: 'synthetic'
+  })
+  Facts.insert({
+    title: 'crickets',
+    url: 'https://edibug.wordpress.com/why-eat-bugs-2/',
+    si: 'g',
+    group: 'meat'
+  })
+
+
+
+  Facts.insert({
     title: 'Red meat',
     url: 'https://www.peta.org/about-peta/faq/how-does-eating-meat-harm-the-environment/',
     si: 'g',
