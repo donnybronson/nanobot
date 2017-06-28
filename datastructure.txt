@@ -2,10 +2,45 @@
 name: 'string', // the name of the food type
 url: 'url', //the data source
 si: 'string',// standard unit the name of the unit used eg 'g', 'ml','integer' integer is used where whole items are used as the base for the unit eg eggs
-group: 'string', //food group 
+group: 'string', //food group
 CO2: Num, // the No of kg of CO2 produced per si unit
 H20: Num, // the No of ltr of H2O used per si unit
 kJ: Num, // the No of kJ of energy used to produce a unit
 lives: Num, // the No of lives directly responsible for in the production of 1 unit
 Average: Num // The average usage / consumption per capita
+},
+{
+name: 'string',
+url: 'url',
+si: 'string',
+group: 'string',
+CO2: Num,
+H20: Num,
+kJ: Num,
+lives: Num,
+Average: Num
+},
+Foodtypes.insert({
+name: 'Red Meat',
+url: 'http://timeforchange.org/eat-less-meat-co2-emission-of-food',
+si: 'g',
+group: 'Meat',
+CO2: 133,
+H20: 99,
+kJ: 99,
+lives: 99,
+Average: 99
+});
+
+,
+{
+name: 'Soy',
+url: 'http://www.slate.com/articles/health_and_science/the_green_lantern/2009/10/how_green_is_tofu.html',
+si: 'g',
+group: 'pulses',
+CO2: 0.3,
+H20: 99,
+kJ: N99,
+lives: 0,
+Average: 99
 }
